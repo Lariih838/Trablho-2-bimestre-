@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* fundo azul claro suave */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #dbeafe; /* azul claro */
+    border: 1px solid #93c5fd;
+    border-radius: 6px;
+    color: #1e3a8a;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #bfdbfe; /* contraste sutil ao passar o mouse */
+}

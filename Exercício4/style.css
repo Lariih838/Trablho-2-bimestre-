@@ -1,0 +1,41 @@
+body{
+    background-color: #5c4033;
+    font-family: Arial, sans-serif;
+}
+
+.caixa{
+    width: 400px;
+    margin: 50px auto;
+    background-color: #8b0000;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6b2d13;
+}
+
+#resultado{
+    margin-top: 20px;
+}

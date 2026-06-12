@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Sistema de Vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="caixa">
+        <h1> Sistema de Vendas</h1>
+
+        <label>Preço do produto:</label>
+        <input type="number" id="preco" placeholder="Digite o preço">
+
+        <label>Condição de pagamento:</label>
+        <select id="pag">
+            <option value="a">a) À vista dinheiro ou cheque</option>
+            <option value="b">b) À vista cartão</option>
+            <option value="c">c) Em duas vezes</option>
+            <option value="d">d) Em duas vezes com juros</option>
+        </select>
+
+        <button onclick="calcVenda()">Calcular</button>
+
+        <p id="res"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
